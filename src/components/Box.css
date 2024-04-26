@@ -1,0 +1,183 @@
+
+#box1
+{
+  position:absolute;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+  left:340px;
+  height: 400px;
+  width: 700px;
+  background-color: #B6FFFA;
+  box-shadow: -1px -1px 30px #B6FFFA;
+  border: 1px solid black;
+}
+
+#box2
+{
+  display: flex;
+  border: 1px solid black;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 180px;
+  left:370px;
+  transition: all 1s ease;
+  position:absolute;
+  height: 400px;
+  width: 700px;
+  box-shadow: 7px 4px 30px #98E4FF;
+
+  background-color: #98E4FF;
+}
+.know
+{
+  position: absolute;
+  top: 200px;
+  right:10px;
+  height: 40px;
+width: 100px;
+background-color: rgb(224, 239, 12);
+font-size: large;
+font-weight: 500;
+padding: auto;
+}
+
+#box3
+{ height: 400px;
+  display: flex;
+  border: 1px solid black;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 210px;
+  transition: all 1s ease;
+  left:400px;
+  box-shadow: 7px 4px 30px #80ffb3;
+  width: 700px;
+  background-color:#80ffb3;
+  position:absolute;
+}
+
+.CourseName
+{
+  position: inherit;
+ top: 0px;
+ left: 0px;
+}
+
+#box1.hover{
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 240px;
+  font-size: xx-large;
+  left:430px
+} 
+ 
+
+#box2.hover{
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+ top: 240px;
+ left: 430px;
+  font-size: xx-large;
+  
+}
+
+#box3.hover{
+
+  font-size: xx-large;
+  
+}
+
+#box-container
+{
+  position: absolute;
+  top: 8vh;
+  left: 5vw;
+  z-index: 1;
+  height: 80vh;
+  width: 100%;
+}
+
+#aside
+{
+  color: white;
+  display: flex;
+  position: absolute;
+height: 400px;
+  top: 200px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box
+{
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid wheat;
+  width: 100px;
+
+  height: 30px;
+}
+.co{
+  padding-left: 10px;
+  font-size: x-large;
+}
+.box:hover
+{
+  box-shadow: 5px 5px 20px rgb(13, 0, 255);
+}
+
+.Price
+{
+  position: inherit;
+  top: 50px;
+  left:35px
+}
+
+.poster
+{
+  position: inherit;
+  top: 50px;
+  left:100px 
+}
+
+
+
+.btnbuy
+{
+  position: inherit;
+  top: 40px;
+  padding: 5px;
+  background-color: black;
+  color:white;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  right: 30px;
+  width: 60px;
+}
+
+.trial
+{
+  position: inherit;
+  top: 120px;
+  height:35px ;
+  color: white;
+  right: 10px;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(103, 100, 230);
+  font-size: large;
+}

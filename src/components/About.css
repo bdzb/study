@@ -1,0 +1,71 @@
+#about video
+{
+  margin: 10VH 40VW;
+  height: 500px;
+  width: 800px;
+  box-shadow: 11px 11px 100px rgb(13, 0, 255);
+}
+#homebody
+{
+  height: 2300px;
+  /* box-shadow: 8px -1px 10px 0px white; */
+  background-color: black;
+  overflow-x: hidden;
+}
+
+
+#plans 
+{
+  display: flex;
+height: 300px;
+width: 100%;
+}
+#plans img
+{
+  
+height: 300px;
+width: 100%;
+}
+
+
+
+#left
+{  
+
+  position: absolute;
+  top: 23vh;
+  height: 500px;
+  width: 500px;
+  font-size: x-large;
+  left: 0;
+  color: white;
+
+}
+
+
+  #navbar
+  {
+    box-shadow: 5px 5px 10px white;
+  }
+
+  #personalised
+  {
+  
+    height: 300px;
+    color: white;
+
+    margin-top: 100px;
+    width: 100vw;
+
+  }
+
+  #footer
+  {
+    position: fixed;
+    bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+    bottom: 0;
+  }

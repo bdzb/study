@@ -1,0 +1,82 @@
+.boxx
+{
+ color: aliceblue;
+ height: 300px;
+ width: 140px;
+}
+
+.b1{
+  color: white;
+}
+.b2
+{
+  border: 0px solid black;
+  box-shadow: 1px 1px 20px rgb(55, 255, 0);
+  height: 300px;
+  position: absolute;
+  height: 260px;
+  left: 200px;
+  width: 400px;
+  z-index: 2;
+  border-radius: 10px;
+}
+.b3
+{
+ box-shadow: 1px 1px 20px rgb(255, 0, 0);
+ 
+  position: absolute;
+  height: 280px;
+  width: 400px;
+  left: 580px;
+  z-index: 1;
+  border-radius: 10px;
+  
+}
+
+.b4
+{
+  box-shadow: 1px 1px 20px 2px rgb(51, 0, 255);
+ 
+  position: absolute;
+  height: 260px;
+  width: 400px;
+  left: 950px;
+  border-radius: 10px;
+  z-index: 2;
+   
+}
+.contain
+
+{
+  background-color: black;
+  position: relative;
+/* box-shadow: 1px 1px 10px white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+@keyframes upAndDown {
+  0%, 100% {
+    transform: translateY(0); 
+    /* Start and end position */
+  }
+  50% {
+    transform: translateY(-30px); /* Midway position */
+  }
+}
+.b3
+{
+  background-color: white;
+}
+.bc {
+  animation: upAndDown 5s ease infinite; /* Apply animation infinitely */
+}
+
+
+
+.bb {
+  position: absolute;
+  animation: upAndDown 5s linear infinite alternate; /* Apply alternate animation infinitely */
+}

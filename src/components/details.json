@@ -1,0 +1,139 @@
+{
+  
+    "IIT": {
+      "course_name": "IIT Entrance Exam Preparation",
+      "syllabus": [
+        "Mathematics: Algebra, Calculus, Trigonometry, Coordinate Geometry, Differential Equations",
+        "Physics: Mechanics, Thermodynamics, Optics, Electricity and Magnetism, Modern Physics",
+        "Chemistry: Physical Chemistry, Organic Chemistry, Inorganic Chemistry"
+      ],
+      "teachers": [
+        {
+          "name": "Prof. Anand Sharma",
+          "expertise": ["Mathematics"]
+        },
+        {
+          "name": "Dr. Priya Singh",
+          "expertise": ["Physics"]
+        },
+        {
+          "name": "Prof. Rajesh Patel",
+          "expertise": ["Chemistry"]
+        }
+      ],
+      "start_date": "2024-06-15",
+      "price": "$1500",
+      "duration": "12 weeks",
+      "benefits": [
+        "Comprehensive coverage of IIT entrance exam syllabus",
+        "Expert guidance from experienced teachers",
+        "Regular practice tests and mock exams",
+        "Personalized doubt-solving sessions",
+        "Access to study materials and resources",
+        "Performance tracking and feedback",
+        "Preparation tips and strategies",
+        "Certificate of completion"
+      ]
+    }
+  ,
+  
+    "JAVA": {
+      "course_name": "Java Programming Masterclass",
+      "syllabus": [
+        "Introduction to Java: Syntax, Data Types, Operators",
+        "Object-Oriented Programming: Classes, Objects, Inheritance, Polymorphism",
+        "Exception Handling and File I/O",
+        "Collections Framework: Lists, Maps, Sets",
+        "GUI Development with Swing and JavaFX",
+        "Networking and Multithreading",
+        "Java EE: Servlets, JSP, JDBC",
+        "Microservices Architecture with Spring Boot",
+        "Android App Development with Kotlin",
+        "Spring Framework: Dependency Injection, AOP"
+      ],
+      "teachers": [
+        {
+          "name": "Prof. Sarah Brown",
+          "expertise": ["Java Programming", "GUI Development"]
+        },
+        {
+          "name": "Dr. Kevin Wilson",
+          "expertise": ["Object-Oriented Programming", "Networking"]
+        },
+        {
+          "name": "Prof. Emily Moore",
+          "expertise": ["Java EE", "Microservices Architecture"]
+        },
+        {
+          "name": "Dr. Michael Evans",
+          "expertise": ["Android Development", "Kotlin Programming"]
+        }
+      ],
+      "start_dates": ["2024-05-01", "2024-07-15", "2024-09-01"],
+      "price": 1800,
+      "duration": "14 weeks",
+      "benefits": [
+        "Proficiency in Java programming language",
+        "Ability to develop robust and scalable applications",
+        "In-depth understanding of Object-Oriented principles",
+        "Practical experience with real-world projects",
+        "Preparation for Oracle Java certifications",
+        "Certificate of achievement",
+        "Access to advanced Java resources and libraries",
+        "Opportunity to collaborate with industry professionals on projects",
+        "Lifetime access to course updates and alumni network"
+      ]
+    
+  },
+  
+    "C++": {
+      "course_name": "C++ Programming Fundamentals",
+      "syllabus": [
+        "Introduction to C++: Syntax, Data Types, Control Structures",
+        "Functions and Recursion",
+        "Pointers and Memory Management",
+        "Object-Oriented Programming Concepts: Classes, Objects, Inheritance, Polymorphism",
+        "File Handling and Streams",
+        "Template Programming and Standard Library",
+        "Advanced C++ Topics: Smart Pointers, Move Semantics",
+        "Concurrency and Parallel Programming",
+        "Graphics Programming with OpenGL",
+        "Game Development with Unreal Engine"
+      ],
+      "teachers": [
+        {
+          "name": "Prof. James Miller",
+          "expertise": ["C++ Programming", "Object-Oriented Programming"]
+        },
+        {
+          "name": "Dr. Lisa Davis",
+          "expertise": ["C++ Language Features", "Template Programming"]
+        },
+        {
+          "name": "Prof. John Thompson",
+          "expertise": ["Advanced C++", "Concurrency"]
+        },
+        {
+          "name": "Dr. Laura White",
+          "expertise": ["Graphics Programming", "Game Development"]
+        }
+      ],
+      "start_date": ["2024-05-15"],
+      "price": 1900,
+      "duration": "15 weeks",
+      "benefits": [
+        "Proficiency in C++ programming language",
+        "Understanding of advanced programming concepts",
+        "Ability to design and implement efficient algorithms",
+        "Hands-on experience with practical coding exercises",
+        "Preparation for C++ certification exams",
+        "Certificate of completion",
+        "Access to advanced C++ libraries and frameworks",
+        "Opportunity to work on cutting-edge projects",
+        "Lifetime access to course materials and updates",
+        "Dedicated mentorship and support"
+      ]
+    
+  }
+
+}

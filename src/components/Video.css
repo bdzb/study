@@ -1,0 +1,65 @@
+#vid
+{
+ height: 400px;
+ width: 600px;
+  z-index: 100;
+  overflow: scroll;
+}
+
+#vidbody
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  margin: auto;
+}
+
+h1{
+  color: wheat;
+  text-align: center;
+}
+
+#PP
+{
+  color: white;
+  
+}
+
+
+#vid
+{
+  margin-top: 130px;
+  margin-left: 400px;
+box-shadow: -3px 5px 10px #ff0000 ,3px -5px 10px  rgb(4, 255, 0);
+ 
+}
+
+.logoo
+{
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  height: 300px;
+  border-radius: 200px;
+  box-shadow: -18px 14px 10px rgb(7 255 0);
+  filter: invert();
+  width: 320px;
+}
+
+@keyframes upAndDown {
+  0%, 100% {
+    transform: translateY(0); 
+    
+    /* Start and end position */
+  }
+  50% {
+    transform: translateY(-30px); /* Midway position */
+  }
+}
+
+.logoo {
+  animation: upAndDown 5s ease infinite; /* Apply animation infinitely */
+}
+
